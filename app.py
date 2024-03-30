@@ -1,3 +1,7 @@
+git clone https://github.com/facebookresearch/audiocraft
+cd audiocraft
+pip install -e .
+
 from audiocraft.models import MusicGen
 import streamlit as st 
 import torch 
