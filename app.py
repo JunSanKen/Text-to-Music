@@ -71,7 +71,7 @@ def main():
     st.title("Text to Music Generator🎵")
 
     with st.expander("See explanation"):
-        st.write("Juan Sabastian Tampubolon - 10120563. Music Generator app built using Meta's Audiocraft library. We are using Music Gen Small model.")
+        st.write("Juan Sabastian Tampubolon - 10120563. Music Generator app built using Meta's Audiocraft library. I am using Music Gen Small model.")
 
     text_area = st.text_area("Enter your description (In English)")
     time_slider = st.slider("Select time duration (In Seconds)", 0, 20, 10)
